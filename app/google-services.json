@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "719349049500",
+    "project_id": "social-app-c6aec",
+    "storage_bucket": "social-app-c6aec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719349049500:android:fed4c0f707547c34252559",
+        "android_client_info": {
+          "package_name": "com.rozdoum.socialcomponents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719349049500-pujm19mfrjoi7q3mgrj5qt0utej7mgpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMDHiU9PTjlmT1f_YueZutUQ83nsRiaKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719349049500-pujm19mfrjoi7q3mgrj5qt0utej7mgpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+{
+  "project_info": {
+    "project_number": "298016948584",
+    "firebase_url": "https://quickstart-1592333099507.firebaseio.com",
+    "project_id": "quickstart-1592333099507",
+    "storage_bucket": "quickstart-1592333099507.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298016948584:android:2c549866d9fdcd606d96dd",
+        "android_client_info": {
+          "package_name": "com.rozdoum.socialcomponents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298016948584-03um6k1qqm6u51l12o69n4gudoqmtp5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rozdoum.socialcomponents",
+            "certificate_hash": "ed9036f484956d18506dbf47496c7b7a401b32ad"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvsFKfb-so7kSUlq4R1i7PWqxTjOxuVaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298016948584:android:886ac2fb652f158f6d96dd",
+        "android_client_info": {
+          "package_name": "com.sarachen.androidappkeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298016948584-f5kmq51h2ls1omok93ugu3eo1bdvb699.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sarachen.androidappkeep",
+            "certificate_hash": "ed9036f484956d18506dbf47496c7b7a401b32ad"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvsFKfb-so7kSUlq4R1i7PWqxTjOxuVaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298016948584:android:b07406aa36f5732d6d96dd",
+        "android_client_info": {
+          "package_name": "com.sarachen.myapplicationfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298016948584-vrg1923rt6v8ui6mn1ja69uehq8pfe9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sarachen.myapplicationfitness",
+            "certificate_hash": "ed9036f484956d18506dbf47496c7b7a401b32ad"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvsFKfb-so7kSUlq4R1i7PWqxTjOxuVaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

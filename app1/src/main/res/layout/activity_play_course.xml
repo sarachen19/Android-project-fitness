@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.play.PlayCourseActivity">
+    <FrameLayout
+        android:id="@+id/course_play_main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.exoplayer2.ui.StyledPlayerView
+            android:id="@+id/player_view"
+            app:controller_layout_id="@layout/exo_styled_player_control_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:show_timeout='0'
+            app:shutter_background_color="#EBECF0"
+            android:background="#EBECF0"
+            app:animation_enabled="false"
+            app:hide_on_touch="false"
+            />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

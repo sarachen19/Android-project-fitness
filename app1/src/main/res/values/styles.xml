@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Launcher  theme. -->
+    <style name="AppTheme.Launcher" >
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    </style>
+    <!-- Full screen application theme. -->
+    <style name="AppThemeFullScreen" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!-- custom prev and next button -->
+    <style name="CustomButton_prev">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/ic_baseline_navigate_before_24</item>
+    </style>
+    <style name="CustomButton_next">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/ic_baseline_navigate_next_24</item>
+    </style>
+    <style name="CustomButton_play_pause">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/ic_baseline_pause_24</item>
+    </style>
+    <style name="CustomButton_play">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/ic_baseline_play_arrow_24</item>
+    </style>
+    <style name="CustomButton_exit">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/ic_baseline_stop_24</item>
+    </style>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".ui.play.ExerciseDetailFragment">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <Button
+            android:id="@+id/exercise_detail_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:textColor="@color/colorAccent"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_baseline_navigate_before_24_white"/>
+    </Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.google.android.exoplayer2.ui.StyledPlayerView
+                android:id="@+id/exercise_detail2_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:animation_enabled="true"
+                app:use_controller="false"
+                app:shutter_background_color="#ffffff" />
+
+            <TextView
+                android:fontFamily="@font/comfortaa_bold"
+                android:id="@+id/exercise_detail2_title"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Steps"
+                android:layout_marginVertical="5dp"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:id="@+id/exercise_detail2_steps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginVertical="5dp"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Breathe"
+                android:layout_marginVertical="5dp"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:id="@+id/exercise_detail2_breathe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginVertical="5dp"
+                android:paddingStart="10dp"/>
+            <TextView
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Muscle Indication"
+                android:layout_marginVertical="5dp"
+                android:paddingStart="10dp"/>
+            <LinearLayout
+                android:id="@+id/exercise_detail2_imagesGroup"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:fontFamily="sans-serif"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Movement Feeling"
+                android:layout_marginVertical="5dp"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:id="@+id/exercise_detail2_movementFeeling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginVertical="5dp"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Common Mistakes"
+                android:layout_marginVertical="5dp"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:id="@+id/exercise_detail2_commonMistakes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginVertical="5dp"
+                android:paddingStart="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
